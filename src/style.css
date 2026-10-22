@@ -1,0 +1,27 @@
+* {
+  background-color:black;
+}
+
+.Box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Box h1{
+    color: rgb(241, 255, 255);
+}
+.Box input{
+    background-color: rgb(252, 252, 252);
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.Box button{
+    background-color:antiquewhite;
+}
+.Box input::placeholder{
+    color: black;
+}
+.Box button:hover{
+    background-color: rgb(163, 154, 140);
+}
